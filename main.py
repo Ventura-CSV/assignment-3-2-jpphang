@@ -7,6 +7,12 @@ def main():
     Code Your Program here
     ########################################
     """
+    # set minval
+    if num1 > num2 and 
+    
+    # set midian
+    
+    # maxval
 
     print(minval, median, maxval)
     ########################################
