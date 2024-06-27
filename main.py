@@ -15,8 +15,21 @@ def main():
     else: minval = num3
     
     # set midian
+    if (num1 < num2 and num1 > num3) or (num1 < num3 and num1 > num2):
+        median = num1
+        
+    elif (num2 < num1 and num2 > num3) or (num2 < num3 and num2 > num1):
+        median = num2
+        
+    else: median = num3
     
-    # maxval
+    # set maxval
+    if num1 > num2 and num1 > num3:
+        maxval = num1        
+    elif num2 > num1 and num2 > num3:
+        maxval = num2    
+    else: maxval = num3
+    
 
     print(minval, median, maxval)
     ########################################
